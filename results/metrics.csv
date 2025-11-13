@@ -1,0 +1,14 @@
+Model,Activation,Optimizer,SeqLength,GradClip,Accuracy,F1,AvgEpochTimeSec
+lstm,relu,adam,50,True,0.7537,0.7533,22.62
+rnn,relu,adam,50,True,0.6513,0.638,15.37
+bilstm,relu,adam,50,True,0.7483,0.7465,31.62
+lstm,tanh,adam,50,True,0.7534,0.753,21.26
+lstm,sigmoid,adam,50,True,0.7389,0.7361,21.4
+lstm,relu,adam,50,True,0.7537,0.7533,22.1
+lstm,relu,sgd,50,True,0.5008,0.4788,20.89
+lstm,relu,rmsprop,50,True,0.7536,0.7536,21.34
+lstm,relu,adam,50,True,0.7537,0.7533,21.7
+lstm,relu,adam,25,True,0.7021,0.7021,17.38
+lstm,relu,adam,50,True,0.7537,0.7533,21.33
+lstm,relu,adam,100,True,0.7928,0.792,30.93
+lstm,relu,adam,50,False,0.755,0.7541,22.15
